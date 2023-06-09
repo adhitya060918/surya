@@ -1,0 +1,202 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1579736761641-5d9eef7741c8');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  
+  .data-pasien h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  table {
+    width: 1500px;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+
+  }
+  
+  table th {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  table td {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .btn-primary {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #939698;
+  }
+  
+  /* Data Dokter section styles */
+  .data-dokter {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .data-dokter h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .data-dokter table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+  }
+  
+  .data-dokter table th {
+    background-color: #dbe1e6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .data-dokter table td {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  table {
+    margin-top: 30px;
+  }
+  h1 {
+    margin-top: 90px;
+    left: 100px;
+  }
+
+  .btn-primary {
+    background-color: #2260d3;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #cdcdcd;
+  }
+  .btn-primary a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .btn-primary a:hover {
+    color: #bbbbbb;
+    text-decoration: underline;
+    margin-top: 90px;
+  }
+
+  
